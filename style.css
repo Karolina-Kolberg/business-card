@@ -7,6 +7,7 @@ html {
   box-sizing: inherit;
 }
 
+
 body {
   background: #2c2141;
   display: flex;
@@ -16,6 +17,7 @@ body {
   font-family:Arial, Helvetica, sans-serif;
 }
 
+
 .main {
   background: #f8f8f8;
   border-radius: 16px;
@@ -24,14 +26,22 @@ body {
   padding: 32px;
 }
 
+
 .person{
 
 }
+
+.person_info{
+    margin-bottom: 24px;
+}
+
+
 .person_name{
 font-size: 36px;
 margin:0;
 font-weight: normal;
 }
+
 
 .person_position{
 font-size: 18px;
@@ -40,12 +50,25 @@ margin: 0;
 font-style: italic;
 }
 
+
 .person_description{
     font-size: 16px;
     line-height: 22px;
+    margin: 0;
+}
+
+
+.person_description--with-margin{
+    margin-bottom: 22px;
 }
 
 .special{
     color:#ED6D05;
     font-weight: normal;
+}
+
+
+.person_link{
+    color: #E20613;
+    text-decoration: none;
 }
